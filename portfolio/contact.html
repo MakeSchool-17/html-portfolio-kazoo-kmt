@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<title>Make School's Contact</title>
+		<link rel="stylesheet" type="text/css" href="./css/portfolio.css">
+
+	</head>
+
+	<body>
+		<header class="header">
+			<nav class="nav">
+				<ul>
+					<li class="nav-item"><a href="./index.html">Home</a></li>
+					<li class="nav-item"><a href="./gallery.html">Gallery</a></li>
+					<li class="nav-item"><a href="./contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<section>
+			<h2 class="title sub">Contact Kitty</h2>
+			<form class="flex column">
+				<input class="email input-field" type="email" placeholder="Your Email" name="_replyto" required />
+			    <textarea class="message input-field" rows="10" cols="20" placeholder="Write me something nice!" required></textarea>
+
+				<input type="hidden" name="_subject" value="Email from Kitty's Portfolio!" />
+		        <input type="text" name="_gotcha" style="display:none" />
+
+				<button type="submit" class="button">Send</button>
+			</form>
+		</section>
+
+		<script src="./js/vendor/jquery-2.2.0.min.js"></script>
+		<script src="./js/contact.js"></script>
+
+	</body>
+
+</html>

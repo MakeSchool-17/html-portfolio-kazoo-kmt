@@ -48,6 +48,36 @@ a:hover {
 	font-size: 57px;
 }
 
+@media (max-width: 481px) {
+	.main {
+		font-size: 34px;
+	}
+
+	.sub {
+		font-size: 24px;
+	}
+}
+
+@media (min-width: 481px) and (max-width:630px) {
+   .main {
+	 font-size: 46px;
+   }
+
+   .sub {
+	 font-size: 33px;
+   }
+ }
+
+ @media (min-width: 630px) and (max-width: 767px) {
+ 	.main {
+ 		font-size: 64px;
+ 	}
+
+ 	.sub {
+ 		font-size: 46px;
+ 	}
+ }
+
 .footer-sub {
 	font-size: 30px;
 }
@@ -59,6 +89,7 @@ a:hover {
 	font-size: 20px;
 	margin-top: 12px;
 	padding: 12px 30px;
+	background-color: transparent;
 }
 
 .button:hover {
@@ -84,6 +115,8 @@ a:hover {
 
 .main-img {
 	margin-top: -60px;
+	max-width: 100%;
+	height: auto;
 }
 
 .logo {
@@ -114,4 +147,33 @@ a:hover {
 
 .img-wrapper {
 	width: 60%;
+}
+
+@media (max-width: 481px) {
+	.img-wrapper {
+		width: 90%;
+	}
+}
+
+@media (min-width: 481px) and (max-width: 630px) {
+	.img-wrapper {
+		width: 75%;
+	}
+}
+
+@media (min-width: 630px) and (max-width: 767px) {
+	.img-wrapper {
+		width: 65%
+	}
+}
+
+.input-field {
+	width: 80%;
+   max-width: 700px;
+   margin: 1%;
+   line-height: 2em;
+   padding: 6px;
+   font-size: 1em;
+   border-radius: 3px;
+   border: none;
 }
